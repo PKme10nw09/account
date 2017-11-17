@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Content-Style-Type" content="text/css" />
 	<meta http-equiv="Content-Script-Type" content="text/javascript" />
@@ -25,13 +25,13 @@
 <div id="wrapper">
 
 	<div id="hrader">
-		<h2>WELCOME!!</h2>
+		<h2>ページの名前</h2>
 	</div><!-- #header div -->
 
 	<div id="main">
 
 		<div id="top">
-			<h3>LOGIN</h3><br>
+			<p>LOGIN</p>
 		</div><!-- #top div -->
 
 		<s:form action = "LoginAction">
