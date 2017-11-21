@@ -15,16 +15,55 @@
 	<title>USER CREATE COMPLETE</title>
 
 	<style type="text/css">
-		#wrapper{
-			width:820px;
+		body{
+			margin:0;
+			padding:0;
+			background-color:#e6e6fa;
+		}
+
+		table{
+			text-align:center;
 			margin:0 auto;
+		}
+
+		#header{
+			width: 100%;
+			height:80px;
+			text-align:center;
+			padding:10px;
+			background-color:#5e5e66;
+		}
+
+		#main{
+			width:100%;
+			height:840px;
+			text-align:center;
+			outline:solid 1px red;
+		}
+
+		#top{
+			text-align:center;
+			color:#FFD700;
+			font-size:20px;
+			border:double 5px;
+			margin-right:40%;
+			margin-left:40%;
+			margin-top:20px;
+			margin-bottom:20px;
+		}
+
+		#footer{
+			width: 100%;
+			height:80px;
+			text-align:center;
+			padding:10px;
+			background-color:#5e5e66;
+			clear:both;
 		}
 
 	</style>
 </head>
 <body>
-<div id="wrapper">
-
 	<div id="header">
 		<h2>ページ名</h2>
 	</div><!-- #header div -->
@@ -32,11 +71,11 @@
 	<div id="main">
 
 		<div id="top">
-			<p>COMPLETE!!</p>
+			<h3>COMPLETE!!</h3>
 		</div><!-- #top div -->
 
 		<div>
-			<h3>登録が完了しました！</h3>
+			<h4>登録が完了しました！</h4>
 		</div>
 
 		<div>
@@ -47,8 +86,6 @@
 
 
 	<div id="footer"></div>
-
-</div><!-- #wrapper div -->
 
 </body>
 </html>

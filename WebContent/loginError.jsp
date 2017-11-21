@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -14,16 +14,59 @@
 	<title>ERROR</title>
 
 	<style type="text/css">
-		#wrapper{
-			width: 820px;
-			margin: 0 auto;
+		body{
+			margin:0;
+			padding:0;
+			background-color:#e6e6fa;
 		}
 
+		table{
+			text-align:center;
+			margin:0 auto;
+		}
+
+		#header{
+			width: 100%;
+			height:80px;
+			text-align:center;
+			padding:10px;
+			background-color:#5e5e66;
+		}
+
+		#main{
+			width:100%;
+			height:840px;
+			text-align:center;
+			outline:solid 1px red;
+		}
+
+		#top{
+			text-align:center;
+			color:#DC143C;
+			font-size:20px;
+			border:double 5px;
+			margin-right:40%;
+			margin-left:40%;
+			margin-top:20px;
+			margin-bottom:20px;
+		}
+
+		a{
+			color:#cc3300;
+			font-weight:900;
+		}
+
+		#footer{
+			width: 100%;
+			height:80px;
+			text-align:center;
+			padding:10px;
+			background-color:#5e5e66;
+			clear:both;
+		}
 	</style>
 </head>
 <body>
-<div id="wrapper">
-
 	<div id="header">
 		<h2>ページの名前</h2>
 	</div><!-- #header div -->
@@ -31,7 +74,7 @@
 	<div id="main">
 
 		<div id="top">
-			<p>LOGIN ERROR</p>
+			<h3>LOGIN ERROR</h3>
 		</div><!-- #top div -->
 
 		<s:form action = "LoginErrorAction">
@@ -39,15 +82,15 @@
 			<p>USER NAMEかPASSWORDが間違っています</p>
 		</s:form>
 
+		<div>
+			<span><a href='<s:url action="LoginErrorAction"/>'>戻る</a></span>
+		</div>
+
 	</div><!-- #main div -->
 
-	<div>
-		<span><a href='<s:url action="LoginErrorAction"/>'>戻る</a></span>
-	</div>
+
 
 	<div id="footer"></div><!-- #footer div -->
-
-</div><!-- #wrapper div -->
 
 </body>
 </html>

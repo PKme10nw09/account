@@ -14,34 +14,88 @@
 	<title>WELCOME!!</title>
 
 	<style type="text/css">
-		#wrapper{
-			width: 820px;
-			margin: 0 auto;
+		body{
+			margin:0;
+			padding:0;
+			background-color:#e6e6fa;
 		}
 
+		table{
+			text-align:center;
+			margin:0 auto;
+		}
+
+		#header{
+			width: 100%;
+			height:80px;
+			text-align:center;
+			padding:10px;
+			background-color:#5e5e66;
+		}
+
+		#main{
+			width:100%;
+			height:840px;
+			text-align:center;
+			outline:solid 1px red;
+		}
+
+		#top{
+			text-align:center;
+			color:#FF3399;
+			font-size:20px;
+			border:double 5px;
+			margin-right:40%;
+			margin-left:40%;
+			margin-top:20px;
+			margin-bottom:20px;
+		}
+
+		#login{
+			font-weight:900;
+			background-color:#ff00ff;
+			color:#ffffff;
+			border-radius:5px;
+			border:2px solid #ff00ff;
+		}
+
+		#login:hover{
+			text-decoratiion:none;
+			background-color:#ffffff;
+			color:#ff00ff;
+		}
+
+		#footer{
+			width: 100%;
+			height:80px;
+			text-align:center;
+			padding:10px;
+			background-color:#5e5e66;
+			clear:both;
+		}
 	</style>
 </head>
 <body>
-<div id="wrapper">
 
-	<div id="hrader">
+	<div id="header">
 		<h2>ページの名前を入れる</h2>
 	</div><!-- #header div -->
 
 	<div id="main">
 
 		<div id="top">
-			<p>WELCOME!!</p>
+			<h3>WELCOME!!</h3>
 		</div><!-- #top div -->
 
-		<s:form action="HomeAction">
-			<s:submit value="LOGIN"/>
-		</s:form>
+		<div>
+			<s:form action="HomeAction">
+				<s:submit id="login" value="LOGIN"/>
+			</s:form>
+		</div>
+
 	</div><!-- #main div -->
 
 	<div id="footer"></div>
-
-</div><!-- #wrapper div -->
 
 </body>
 </html>
