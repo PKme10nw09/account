@@ -27,7 +27,7 @@
 
 		#header{
 			width:100%;
-			height:100px;
+			height:80px;
 			margin:0 auto;
 			text-align:center;
 			padding:10px;
@@ -87,7 +87,7 @@
 		}
 
 		a:hover{
-			text-decoratiion:none;
+			text-decoration:none;
 			background-color:#ffffff;
 			color:#ff00ff;
 		}
@@ -116,8 +116,8 @@
 
 		<div id="square">
 			<s:form action = "LoginAction">
-				<s:textfield name ="loginUserName" label = "NAME"/>
-				<s:password name ="loginPassword" label = "PW"/>
+				<s:textfield name ="loginUserName" label = "NAME" />
+				<s:password name ="loginPassword" label = "PW" />
 				<s:submit id="login" value ="LOGIN"/>
 			</s:form>
 		<br/>

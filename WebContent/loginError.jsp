@@ -52,8 +52,20 @@
 		}
 
 		a{
-			color:#cc3300;
 			font-weight:900;
+			background-color:#ff00ff;
+			color:#ffffff;
+			border-radius:8px;
+			border:2px solid #ff00ff;
+			width:100px;
+			display:block;
+			margin:0 auto;
+		}
+
+		a:hover{
+			text-decoration:none;
+			background-color:#ffffff;
+			color:#ff00ff;
 		}
 
 		#footer{

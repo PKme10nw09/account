@@ -41,10 +41,6 @@
 			outline:solid 1px red;
 		}
 
-		#main table{
-			border:2px solid black;
-		}
-
 		#top{
 			text-align:center;
 			color:#FFD700;
@@ -56,18 +52,87 @@
 			margin-bottom:20px;
 		}
 
-		a{
-			color:#cc3300;
+		#main table{
+			width: 310px;
+			border:2px solid black;
+		}
+
+		#check{
 			font-weight:900;
+			background-color:#ff00ff;
+			color:#ffffff;
+			border-radius:5px;
+			border:2px solid #ff00ff;
+			width:100px;
+			display:block;
+			text-align:center;
+			margin-top:20px;
+			padding-top:3px;
+			padding-bottpm:5px;
+			cursor:pointer;
+		}
+
+		#check:hover{
+			text-decoratiion:none;
+			background-color:#ffffff;
+			color:#ff00ff;
+		}
+
+		td label{
+			font-weight:600;
+		}
+
+		td label:after{
+			content:"*";
+			color:#ff0000;
+		}
+
+		.kome{
+			color:#ff0000;
+		}
+
+
+		a{
+			font-weight:900;
+			background-color:#ff00ff;
+			color:#ffffff;
+			border-radius:5px;
+			border:2px solid #ff00ff;
+		}
+
+		a:hover{
+			text-decoration:none;
+			background-color:#ffffff;
+			color:#ff00ff;
+		}
+
+		p{
+			maigin-top:100px;
 		}
 
 		#footer{
 			width: 100%;
 			height:80px;
-			text-align:center;
 			padding:10px;
 			background-color:#5e5e66;
 			clear:both;
+		}
+
+		td {
+			text-align: left;
+		}
+
+		.input_type {
+			margin: 0 auto;
+			float:right;
+		}
+
+		.input_box {
+			width: 170px;
+		}
+
+		.radio {
+			padding: 0 0 0 25px;
 		}
 
 	</style>
@@ -87,33 +152,45 @@
 			<s:property value="errorMassage" escape="false" />
 		</s:if>
 			<form action="UserCreateConfirmAction">
-		<table>
 
+		<table>
 				<tr>
-					<td><label> USER NAME:</label></td>
-					<td><input type="text" name="userName" value="" /></td>
-				</tr>
-				<tr>
-					<td><label>PASSWORD:</label></td>
-					<td><input type="text" name="password" value="" /></td>
-				</tr>
-				<tr>
-					<td><label>GENDER:</label></td>
 					<td>
-						<input type="radio" name="gender" value="0">Man
-						<input type="radio" name="gender" value="1" required>Woman
+						<label> USER NAME:</label>
+						<pre class="input_type"><input class="input_box" type="text" name="userName" value="" /></pre>
 					</td>
 				</tr>
 				<tr>
-					<td><label>BIRTHDAY:</label></td>
-					<td><input type="date" name="birthday" max="2017-12-31"></td>
+					<td>
+						<label>PASSWORD:</label>
+						<pre class="input_type"><input class="input_box" type="text" name="password" value="" /></pre>
+					</td>
 				</tr>
-				<s:submit value = "OK"/>
-
+				<tr>
+					<td>
+						<label>GENDER:</label>
+						<span class="radio">
+							<input type="radio" name="gender" value="0">Man
+							<input type="radio" name="gender" value="1" required>Woman
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>BIRTHDAY:</label>
+						<pre class="input_type"><input class="input_box" type="date" name="birthday" max="2017-12-31"></pre>
+					</td>
+				</tr>
+				<s:submit id="check" value = "OK" />
+				<tr>
+					<td>
+							<p style="font-size: 10px;">※「<span class="kome">*</span>」の付いている項目は必須項目です。</p>
+					</td>
+				</tr>
 		</table>
 			</form>
 		<div>
-			<span>前画面に戻る場合は</span><a href='<s:url action = "HomeAction" />'>こちら</a>
+			<p>前画面に戻る場合は<a href='<s:url action = "HomeAction" />'>こちら</a></p>
 		</div>
 
 	</div><!-- #main div -->

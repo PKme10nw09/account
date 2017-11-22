@@ -27,7 +27,7 @@
 
 		#header{
 			width: 100%;
-			height:80px;
+			height:100px;
 			text-align:center;
 			padding:10px;
 			background-color:#5e5e66;
