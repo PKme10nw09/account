@@ -26,16 +26,14 @@
 		}
 
 		#header{
-			width:100%;
 			height:80px;
-			margin:0 auto;
 			text-align:center;
 			padding:10px;
 			background-color:#5e5e66;
 		}
 
 		#main{
-			width:100%;
+			padding:10px;
 			height:840px;
 			outline:solid 1px red;
 			text-align:center;
@@ -93,7 +91,6 @@
 		}
 
 		#footer{
-			width: 100%;
 			height:80px;
 			text-align:center;
 			padding:10px;

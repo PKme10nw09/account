@@ -27,7 +27,6 @@
 		}
 
 		#header{
-			width: 100%;
 			height:80px;
 			text-align:center;
 			padding:10px;
@@ -35,7 +34,7 @@
 		}
 
 		#main{
-			width:100%;
+			padding:10px;
 			height:840px;
 			text-align:center;
 			outline:solid 1px red;
@@ -53,7 +52,6 @@
 		}
 
 		#footer{
-			width: 100%;
 			height:80px;
 			text-align:center;
 			padding:10px;
