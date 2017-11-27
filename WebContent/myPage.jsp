@@ -24,15 +24,28 @@
 		}
 
 		#header{
+<<<<<<< HEAD
+=======
+			height:80px;
+>>>>>>> branch 'master' of https://github.com/PKme10nw09/account
 			text-align:center;
+<<<<<<< HEAD
 			padding:0px;
 			height:56px;
 			padding-left:445px;
+=======
+			background-color:#5e5e66;
+			padding: 10px;
+>>>>>>> branch 'master' of https://github.com/PKme10nw09/account
 		}
 
 		#main{
 			padding:10px;
+<<<<<<< HEAD
 			height:633px;
+=======
+			height:840px;
+>>>>>>> branch 'master' of https://github.com/PKme10nw09/account
 			text-align:center;
 		}
 
@@ -78,7 +91,11 @@
 		}
 
 		#footer{
+<<<<<<< HEAD
 			height:30px;
+=======
+			height:80px;
+>>>>>>> branch 'master' of https://github.com/PKme10nw09/account
 			text-align:center;
 			padding:0px;
 			clear:both;
