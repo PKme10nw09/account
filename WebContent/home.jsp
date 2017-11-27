@@ -16,8 +16,10 @@
 	<style type="text/css">
 		body{
 			margin:0;
-			padding:0;
-			background-color:#e6e6fa;
+			background-image:url(image/account-img4.jpg);
+			background-repeat:no-repeat;
+			background-position:center center;
+			background-size:cover;
 		}
 
 		table{
@@ -26,18 +28,20 @@
 		}
 
 		#header{
-			width: 100%;
-			height:100px;
+			height:150px;
 			text-align:center;
 			padding:10px;
-			background-color:#5e5e66;
+			background-image:url(image/account-img7.jpg);
+			background-position:center top;
+			background-repeat:no-repeat;
+			background-size:100%;
 		}
 
 		#main{
-			width:100%;
-			height:840px;
+			height:280px;
 			text-align:center;
-			outline:solid 1px red;
+			margin-top:50px;
+
 		}
 
 		#top{
@@ -53,10 +57,17 @@
 
 		#login{
 			font-weight:900;
+			font-size:20px;
+			letter-spacing:5px;
 			background-color:#ff00ff;
 			color:#ffffff;
-			border-radius:5px;
+			border-radius:10px;
 			border:2px solid #ff00ff;
+			width:150px;
+			display:block;
+			text-align:center;
+			line-height:40px;
+			margin:100px;
 		}
 
 		#login:hover{
@@ -66,26 +77,24 @@
 		}
 
 		#footer{
-			width: 100%;
 			height:80px;
 			text-align:center;
 			padding:10px;
-			background-color:#5e5e66;
 			clear:both;
 		}
 	</style>
 </head>
 <body>
 
-	<div id="header">
-		<h2>ページの名前を入れる</h2>
-	</div><!-- #header div -->
+	<div id="header"></div>
 
 	<div id="main">
 
 		<div id="top">
 			<h3>WELCOME!!</h3>
 		</div><!-- #top div -->
+
+
 
 		<div>
 			<s:form action="HomeAction">

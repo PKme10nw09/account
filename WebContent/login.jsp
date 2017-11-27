@@ -16,88 +16,108 @@
 	<style type ="text/css">
 		body{
 			margin:0;
-			padding:0;
-			background-color:#e6e6fa;
-		}
-
-		table{
-			text-align:center;
-			margin:0 auto;
+			height:759px;
+			background-color:#f5f5f5;
 		}
 
 		#header{
-			width:100%;
-			height:80px;
-			margin:0 auto;
+			height:130px;
 			text-align:center;
 			padding:10px;
-			background-color:#5e5e66;
+			background-image:url(image/account-img7.jpg);
+			background-position:center top;
+			background-repeat:no-repeat;
+			background-size:100%;
 		}
 
 		#main{
-			width:100%;
-			height:840px;
-			outline:solid 1px red;
-			text-align:center;
-			;
+			height:578px;
+			width:790px;
+			margin:0 auto;
+			padding-top:1px;
+			padding-left: 100px;
+			padding-right: 100px;
+			background-image:url(image/account-img8.jpg);
+			background-repeat:no-repeat;
+			background-position:center top;
+			background-size:100%;
 		}
 
 		#top{
+			color:#007fff;
+			letter-spacing:5px;
 			text-align:center;
-			color:#1E90FF;
 			font-size:20px;
 			border:double 5px;
-			margin-right:40%;
-			margin-left:40%;
-			margin-top:20px;
-			margin-bottom:20px;
+			margin-right:500px;
+			margin-left:35px;
+			margin-top:50px;
+			margin-bottom: 70px;
 		}
 
 		#square{
-			border:1px solid #000000;
-			margin-right:40%;
-			margin-left:40%;
-			padding-top:25px;
+			border:inset 10px #1e8eff;
+			background-color:rgba(70,60,60,0.2);
+			margin-right:400px;
+			margin-left:-35px;
+			padding-top: 80px;
+			padding-bottom: 20px;
 		}
 
 		#login{
 			font-weight:900;
-			background-color:#ff00ff;
+			font-size:20px;
+			display:block;
+			widht:90px;
+			padding-left:20px;
+			padding-right:20px;
+			margin-top:10px;
+			margin-left:30px;
+			background-color:#007fff;
 			color:#ffffff;
 			border-radius:5px;
-			border:2px solid #ff00ff;
+			border:2px solid #007fff;
 		}
 
 		#login:hover{
-			text-decoratiion:none;
+			text-decoration:none;
 			background-color:#ffffff;
-			color:#ff00ff;
+			color:#007fff;
 		}
 
 		.label{
-			font-weight:900;
+			font-weight:700;
+		}
+
+		p{
+			padding-left:40px;
+			padding-top: 35px;
+			font-weight:600;
+			letter-spacing:1px;
 		}
 
 		a{
 			font-weight:900;
-			background-color:#ff00ff;
+			background-color:#007fff;
 			color:#ffffff;
 			border-radius:5px;
-			border:2px solid #ff00ff;
+			border:2px solid #007fff;
+			padding-right:10px;
+			padding-left:10px;
+			letter-spacing:1px;
 		}
 
 		a:hover{
 			text-decoration:none;
 			background-color:#ffffff;
-			color:#ff00ff;
+			color:#007fff;
 		}
 
 		#footer{
-			width: 100%;
-			height:80px;
+			height:10px;
 			text-align:center;
 			padding:10px;
-			background-color:#5e5e66;
+			background-color:#e0e0e0;
 			clear:both;
 		}
 
@@ -105,7 +125,7 @@
 </head>
 <body>
 	<div id="header">
-		<h2>ページの名前</h2>
+		<h2>MIZU BLOG</h2>
 	</div><!-- #header div -->
 
 	<div id="main">
@@ -119,13 +139,12 @@
 				<s:textfield name ="loginUserName" label = "NAME" />
 				<s:password name ="loginPassword" label = "PW" />
 				<s:submit id="login" value ="LOGIN"/>
+			<br/>
 			</s:form>
-		<br/>
 		</div>
 
-		<div>
-			<p>！新規ユーザー登録は<a href='<s:url action ="UserCreateAction"/>'>こちら</a>！</p>
-		</div>
+		<p>！新規ユーザー登録は<a href='<s:url action ="UserCreateAction"/>'>こちら</a>！</p>
+
 	</div><!-- #main div -->
 
 	<div id="footer"></div>

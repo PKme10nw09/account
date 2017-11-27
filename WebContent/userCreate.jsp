@@ -17,7 +17,6 @@
 	<style type="text/css">
 		body{
 			margin:0;
-			padding:0;
 			background-color:#e6e6fa;
 		}
 
@@ -27,18 +26,18 @@
 		}
 
 		#header{
-			width: 100%;
-			height:80px;
+			height:130px;
 			text-align:center;
 			padding:10px;
-			background-color:#5e5e66;
+			background-image:url(image/account-img7.jpg);
+			background-position:center top;
+			background-repeat:no-repeat;
+			background-size:100%;
 		}
 
 		#main{
-			width:100%;
-			height:840px;
+			padding:10px;
 			text-align:center;
-			outline:solid 1px red;
 		}
 
 		#top{
@@ -111,8 +110,8 @@
 		}
 
 		#footer{
-			width: 100%;
 			height:80px;
+			text-align:center;
 			padding:10px;
 			background-color:#5e5e66;
 			clear:both;
@@ -138,9 +137,7 @@
 	</style>
 </head>
 <body>
-	<div id="header">
-		<h2>ページの名前</h2>
-	</div><!-- #header div -->
+	<div id="header"></div>
 
 	<div id="main">
 
@@ -151,6 +148,7 @@
 		<s:if test="errorMassage != ''">
 			<s:property value="errorMassage" escape="false" />
 		</s:if>
+
 			<form action="UserCreateConfirmAction">
 
 		<table>
@@ -184,7 +182,7 @@
 				<s:submit id="check" value = "OK" />
 				<tr>
 					<td>
-							<p style="font-size: 10px;">※「<span class="kome">*</span>」の付いている項目は必須項目です。</p>
+						<p style="font-size: 10px;">※「<span class="kome">*</span>」の付いている項目は必須項目です。</p>
 					</td>
 				</tr>
 		</table>

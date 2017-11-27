@@ -17,47 +17,75 @@
 	<style type="text/css">
 		body{
 			margin:0;
-			padding:0;
-			background-color:#e6e6fa;
-		}
-
-		table{
-			text-align:center;
-			margin:0 auto;
+			height:729px;
+			background-color:#f5f5f5;
 		}
 
 		#header{
-			width: 100%;
-			height:80px;
-			text-align:center;
+			height:130px;
 			padding:10px;
-			background-color:#5e5e66;
+			background-image:url(image/account-img7.jpg);
+			background-position:center top;
+			background-repeat:no-repeat;
+			background-size:100%;
+			color:#ff7f50;
+			font-size:20px;
+		}
+
+		h2{
+			text-align:center;
+			margin-top: 35px;
+			letter-spacing: 5px;
+			font-size: 45px;
 		}
 
 		#main{
-			width:100%;
-			height:840px;
 			text-align:center;
-			outline:solid 1px red;
+			padding:1px;
+			height:552px;
+			margin:0 auto;
+			background-image:url(image/account-img9.jpg);
+			background-repeat:no-repeat;
+			background-position:center top;
+			background-size:50%
 		}
 
-		#top{
-			text-align:center;
-			color:#FFD700;
-			font-size:20px;
-			border:double 5px;
-			margin-right:40%;
-			margin-left:40%;
+		h4{
+			margin-top:200px;
+			font-size:40px;
+		}
+
+		p{
 			margin-top:20px;
-			margin-bottom:20px;
+		}
+
+		.login{
+			font-weight:900;
+			font-size:20px;
+			display:block;
+			padding-left:30px;
+			padding-right:30px;
+			padding-top:5px;
+			padding-bottom:5px;
+			margin:0 auto;
+			background-color:#FF3399;
+			color:#ffffff;
+			border-radius:5px;
+			border:2px solid #FF3399;
+			text-align:center;
+		}
+
+		.login:hover{
+			text-decoration:none;
+			background-color:#ffffff;
+			color:#FF3399;
 		}
 
 		#footer{
-			width: 100%;
-			height:80px;
+			height:35px;
 			text-align:center;
 			padding:10px;
-			background-color:#5e5e66;
+			background-color:#e0e0e0;
 			clear:both;
 		}
 
@@ -65,21 +93,16 @@
 </head>
 <body>
 	<div id="header">
-		<h2>ページ名</h2>
-	</div><!-- #header div -->
+		<h2>COMPLETE!!</h2></div>
 
 	<div id="main">
-
-		<div id="top">
-			<h3>COMPLETE!!</h3>
-		</div><!-- #top div -->
 
 		<div>
 			<h4>登録が完了しました！</h4>
 		</div>
 
 		<div>
-			<p><input type=button value="≪ LOGIN" onclick="location.href='HomeAction'"></p>
+			<p><input class="login" type=button value="≪ LOGIN" onclick="location.href='HomeAction'"></p>
 		</div>
 
 	</div><!-- #main div -->

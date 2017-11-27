@@ -16,8 +16,8 @@
 	<style type="text/css">
 		body{
 			margin:0;
-			padding:0;
-			background-color:#e6e6fa;
+			background-color:#fbfaf5;
+			height:750px;
 		}
 
 		table{
@@ -26,18 +26,16 @@
 		}
 
 		#header{
-			width: 100%;
-			height:80px;
+			height:120px;
 			text-align:center;
-			padding:10px;
-			background-color:#5e5e66;
+			background-color:#192f60;
+			padding: 10px;
 		}
 
 		#main{
-			width:100%;
-			height:840px;
+			padding:10px;
+			height:499px;
 			text-align:center;
-			outline:solid 1px red;
 		}
 
 		#top{
@@ -51,37 +49,42 @@
 			margin-bottom:20px;
 		}
 
+		p{
+			margin-top:60px;
+			margin-bottom: 45px;
+		}
+
 		a{
 			font-weight:900;
-			background-color:#ff00ff;
-			color:#ffffff;
-			border-radius:8px;
-			border:2px solid #ff00ff;
-			width:100px;
+			font-size:20px;
 			display:block;
-			margin:0 auto;
+			padding-left:20px;
+			padding-right:20px;
+			margin-left:675px;
+			margin-right:680px;
+			background-color:#DC143C;
+			color:#ffffff;
+			border-radius:5px;
+			border:2px solid #DC143C;
+			letter-spacing:5px;
 		}
 
 		a:hover{
 			text-decoration:none;
 			background-color:#ffffff;
-			color:#ff00ff;
+			color:#DC143C;
 		}
 
 		#footer{
-			width: 100%;
 			height:80px;
 			text-align:center;
-			padding:10px;
-			background-color:#5e5e66;
-			clear:both;
+			background-color:#192f60;
+			padding: 10px;
 		}
 	</style>
 </head>
 <body>
-	<div id="header">
-		<h2>ページの名前</h2>
-	</div><!-- #header div -->
+	<div id="header"></div>
 
 	<div id="main">
 
