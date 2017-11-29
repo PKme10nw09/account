@@ -24,28 +24,23 @@
 		}
 
 		#header{
-<<<<<<< HEAD
-=======
-			height:80px;
->>>>>>> branch 'master' of https://github.com/PKme10nw09/account
-			text-align:center;
-<<<<<<< HEAD
-			padding:0px;
-			height:56px;
+			branch 'master' of https://github.com/PKme10nw09/account;
 			padding-left:445px;
-=======
-			background-color:#5e5e66;
-			padding: 10px;
->>>>>>> branch 'master' of https://github.com/PKme10nw09/account
+			padding:1px;
+			branch 'master' of https://github.com/PKme10nw09/account;
+		}
+
+		h2{
+			text-align: center;
+			padding-left: 450px;
+			padding-top: 20px;
+			font-size:35px;
 		}
 
 		#main{
 			padding:10px;
-<<<<<<< HEAD
-			height:633px;
-=======
-			height:840px;
->>>>>>> branch 'master' of https://github.com/PKme10nw09/account
+			height:542px;
+			branch 'master' of https://github.com/PKme10nw09/account;
 			text-align:center;
 		}
 
@@ -66,7 +61,8 @@
 		}
 
 		p{
-			padding-bottom:100px;
+			padding-bottom:150px;
+			padding-top: 25px;
 		}
 
 		.logout{
@@ -77,7 +73,7 @@
 			padding-right:25px;
 			padding-top:5px;
 			padding-bottom:5px;
-			margin-left:910px;
+			margin-left:85%;
 			background-color:#FF3399;
 			color:#ffffff;
 			border-radius:5px;
@@ -91,13 +87,8 @@
 		}
 
 		#footer{
-<<<<<<< HEAD
-			height:30px;
-=======
-			height:80px;
->>>>>>> branch 'master' of https://github.com/PKme10nw09/account
+			branch 'master' of https://github.com/PKme10nw09/account;
 			text-align:center;
-			padding:0px;
 			clear:both;
 		}
 	</style>
@@ -113,7 +104,7 @@
 			<h3>HELLO!!</h3>
 		</div><!-- #top div -->
 
-		<p><s:property value = "#session.loginUser"/><span id="account">さんのアカウント ログイン中</span><p>
+		<p><s:property value = "#session.loginUser"/><span id="account">さんのアカウント ログイン中</span></p>
 
 		<input class="logout" type=button value="LOGOUT" onclick="location.href='MyPageAction'">
 

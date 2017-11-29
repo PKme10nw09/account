@@ -16,14 +16,11 @@
 	<style type="text/css">
 		body{
 			margin:0;
-<<<<<<< HEAD
 			background-color:#fbfaf5;
 			height:750px;
-=======
 			padding:0;
 			background-color:#e6e6fa;
-
->>>>>>> branch 'master' of https://github.com/PKme10nw09/account
+			branch 'master' of https://github.com/PKme10nw09/account;
 		}
 
 		table{
@@ -32,27 +29,18 @@
 		}
 
 		#header{
-<<<<<<< HEAD
 			height:120px;
-=======
-			height:80px;
->>>>>>> branch 'master' of https://github.com/PKme10nw09/account
+			branch 'master' of https://github.com/PKme10nw09/account;
 			text-align:center;
-<<<<<<< HEAD
 			background-color:#192f60;
-=======
-			background-color:#5e5e66;
->>>>>>> branch 'master' of https://github.com/PKme10nw09/account
+			branch 'master' of https://github.com/PKme10nw09/account;
 			padding: 10px;
 		}
 
 		#main{
 			padding:10px;
-<<<<<<< HEAD
 			height:499px;
-=======
-			height:840px;
->>>>>>> branch 'master' of https://github.com/PKme10nw09/account
+			branch 'master' of https://github.com/PKme10nw09/account;
 			text-align:center;
 		}
 

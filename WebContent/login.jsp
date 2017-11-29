@@ -16,28 +16,28 @@
 	<style type ="text/css">
 		body{
 			margin:0;
-			height:759px;
 			background-color:#f5f5f5;
 		}
 
 		#header{
-<<<<<<< HEAD
-			height:130px;
-=======
-			height:80px;
->>>>>>> branch 'master' of https://github.com/PKme10nw09/account
-			text-align:center;
-			padding:10px;
+			padding:1px;
+			height:140px;
+			branch 'master' of https://github.com/PKme10nw09/account;
 			background-image:url(image/account-img7.jpg);
 			background-position:center top;
 			background-repeat:no-repeat;
 			background-size:100%;
 		}
 
+		h2{
+			text-align: center;
+			margin-top: 50px;
+			font-size:35px;
+		}
+
 		#main{
-<<<<<<< HEAD
-			height:578px;
 			width:790px;
+			height:557px;
 			margin:0 auto;
 			padding-top:1px;
 			padding-left: 100px;
@@ -46,13 +46,9 @@
 			background-repeat:no-repeat;
 			background-position:center top;
 			background-size:100%;
-=======
 			padding:10px;
-			height:840px;
-			outline:solid 1px red;
 			text-align:center;
-			;
->>>>>>> branch 'master' of https://github.com/PKme10nw09/account
+			branch 'master' of https://github.com/PKme10nw09/account;
 		}
 
 		#top{
@@ -61,17 +57,17 @@
 			text-align:center;
 			font-size:20px;
 			border:double 5px;
-			margin-right:500px;
-			margin-left:35px;
-			margin-top:50px;
-			margin-bottom: 70px;
+			margin-right:450px;
+			margin-left:85px;
+			margin-top:35px;
+			margin-bottom:55px;
 		}
 
 		#square{
 			border:inset 10px #1e8eff;
 			background-color:rgba(70,60,60,0.2);
-			margin-right:400px;
-			margin-left:-35px;
+			margin-right:390px;
+			margin-left:35px;
 			padding-top: 80px;
 			padding-bottom: 20px;
 		}
@@ -102,8 +98,8 @@
 		}
 
 		p{
-			padding-left:40px;
-			padding-top: 35px;
+			padding-right:340px;
+			padding-top:20px;
 			font-weight:600;
 			letter-spacing:1px;
 		}
@@ -126,11 +122,8 @@
 		}
 
 		#footer{
-<<<<<<< HEAD
-			height:10px;
-=======
-			height:80px;
->>>>>>> branch 'master' of https://github.com/PKme10nw09/account
+			height:20px;
+			branch 'master' of https://github.com/PKme10nw09/account;
 			text-align:center;
 			padding:10px;
 			background-color:#e0e0e0;

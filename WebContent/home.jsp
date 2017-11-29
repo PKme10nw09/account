@@ -94,8 +94,6 @@
 			<h3>WELCOME!!</h3>
 		</div><!-- #top div -->
 
-
-
 		<div>
 			<s:form action="HomeAction">
 				<s:submit id="login" value="LOGIN"/>
