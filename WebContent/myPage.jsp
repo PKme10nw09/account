@@ -56,13 +56,10 @@
 			margin-bottom:30px;
 		}
 
-		#account{
-			padding-left: 451px;
-		}
-
 		p{
 			padding-bottom:150px;
 			padding-top: 25px;
+			padding-left: 451px;
 		}
 
 		.logout{
@@ -84,6 +81,7 @@
 			text-decoration:none;
 			background-color:#ffffff;
 			color:#FF3399;
+			cursor:pointer;
 		}
 
 		#footer{
@@ -104,7 +102,7 @@
 			<h3>HELLO!!</h3>
 		</div><!-- #top div -->
 
-		<p><s:property value = "#session.loginUser"/><span id="account">さんのアカウント ログイン中</span></p>
+		<p><s:property value = "#session.loginUser"/><span>さんのアカウント ログイン中</span></p>
 
 		<input class="logout" type=button value="LOGOUT" onclick="location.href='MyPageAction'">
 

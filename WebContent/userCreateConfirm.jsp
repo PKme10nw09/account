@@ -17,63 +17,131 @@
 	<style type="text/css">
 		body{
 			margin:0;
-			padding:0;
-			background-color:#e6e6fa;
+			height:759px;
+			background-color:#f5f5f5;
 		}
 
 		table{
-			text-align:center;
 			margin:0 auto;
 		}
 
 		#header{
-			height:80px;
+			height:150px;
 			text-align:center;
-			background-color:#5e5e66;
-			padding: 10px;
+			branch 'master' of https://github.com/PKme10nw09/account;
+			padding:1px;
+			background-image:url(image/account-img7.jpg);
+			background-position:center top;
+			background-repeat:no-repeat;
+			background-size:100%;
+			color:#ff8c00;
+			font-size:20px;
+		}
+
+		h2{
+			text-align:center;
+			margin-top: 35px;
+			letter-spacing: 5px;
+			font-size: 45px;
 		}
 
 		#main{
-			padding:10px;
-			height:840px;
+			branch 'master' of https://github.com/PKme10nw09/account;
+			text-align:center;
+			padding:1px;
+			height:573px;
+			margin:0 auto;
+			background-image:url(image/account-img9.jpg);
+			background-repeat:no-repeat;
+			background-position:center top;
+			background-size:52%
+		}
+
+		h4{
+			margin-top:165px;
+			font-size:20px;
 			text-align:center;
 		}
 
-		#top{
-			text-align:center;
-			color:#FFD700;
+		td{
+			padding:7px;
+		}
+
+		label{
+			font-weight:600;
+		}
+
+		.select_a{
+			font-weight:900;
 			font-size:20px;
-			border:double 5px;
-			margin-right:40%;
-			margin-left:40%;
-			margin-top:20px;
-			margin-bottom:20px;
+			padding-left:30px;
+			padding-right:30px;
+			padding-top:1px;
+			padding-bottom:1px;
+			background-color:#008080;
+			color:#ffffff;
+			border-radius:5px;
+			border:2px solid #008080;
+			text-align:center;
+			letter-spacing:2px;
+			display:inline-block;
+			margin-left:35px;
+			margin-top:75px;
+		}
+
+		.select_a:hover{
+			text-decoration:none;
+			background-color:#ffffff;
+			color:#008080;
+			cursor:pointer;
+		}
+
+		.select_b{
+			font-weight:900;
+			font-size:20px;
+			padding-left:20px;
+			padding-right:20px;
+			padding-top:1px;
+			padding-bottom:1px;
+			background-color:#ff8c00;
+			color:#ffffff;
+			border-radius:5px;
+			border:2px solid #ff8c00;
+			text-align:center;
+			letter-spacing:2px;
+			display:inline-block;
+			margin-left:100px;
+		}
+
+		.select_b:hover{
+			text-decoration:none;
+			background-color:#ffffff;
+			color:#ff8c00;
+			cursor:pointer;
 		}
 
 		#footer{
-			height:80px;
+			height:30px;
+			branch 'master' of https://github.com/PKme10nw09/account;
 			text-align:center;
-			padding:10px;
-			background-color:#5e5e66;
+			padding:1px;
+			background-color:#e0e0e0;
 			clear:both;
 		}
 	</style>
 </head>
+
 <body>
 	<div id="header">
-		<h2>ページの名前</h2>
+		<h2>CONFIRM</h2>
 	</div><!-- #header div -->
 
 	<div id="main">
 
-		<div id="top">
-			<h3>CONFIRM</h3>
-		</div><!-- #top div -->
-
 		<div>
 			<h4>登録する内容はこちらでよろしいですか？</h4>
-			<table>
-				<s:form action="UserCreateCompleteAction">
+			<s:form action="UserCreateCompleteAction">
+				<table>
 					<tr id="box">
 						<td><label>USER NAME:</label></td>
 						<td><s:property value="userName" escape="false" /></td>
@@ -90,14 +158,14 @@
 						<td><label>BIRTHDAY:</label></td>
 						<td><s:property value="birthday"/></td>
 					</tr>
-					<tr>
-						<td>
-							<input type=button value="NO" onclick="location.href='UserCreateAction'">
-							<input type=button value="YES" onclick="location.href='UserCreateCompleteAction'">
-						</td>
-					</tr>
-				</s:form>
-			</table>
+				</table>
+
+				<div id="select">
+					<input class="select_a" type=button value="NO" onclick="location.href='UserCreateAction'">
+					<input class="select_b" type=button value="YES" onclick="location.href='UserCreateCompleteAction'">
+				</div>
+
+			</s:form>
 		</div>
 	</div><!-- #main div -->
 

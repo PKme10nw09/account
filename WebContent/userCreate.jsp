@@ -174,8 +174,8 @@
 					<td>
 						<label>GENDER:</label>
 						<span class="radio">
-							<input type="radio" name="gender" value="0">Man
-							<input type="radio" name="gender" value="1" required>Woman
+							<input type="radio" name="gender" value="1">Man
+							<input type="radio" name="gender" value="2" required>Woman
 						</span>
 					</td>
 				</tr>

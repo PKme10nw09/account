@@ -63,13 +63,17 @@
 			margin-bottom:55px;
 		}
 
+		table.wwFormTable {
+			margin: 0 auto;
+		}
+
 		#square{
 			border:inset 10px #1e8eff;
 			background-color:rgba(70,60,60,0.2);
 			margin-right:390px;
 			margin-left:35px;
-			padding-top: 80px;
-			padding-bottom: 20px;
+			padding-top:55px;
+			padding-bottom:55px;
 		}
 
 		#login{
@@ -91,6 +95,7 @@
 			text-decoration:none;
 			background-color:#ffffff;
 			color:#007fff;
+			cursor:pointer;
 		}
 
 		.label{
@@ -130,6 +135,8 @@
 			clear:both;
 		}
 
+
+
 	</style>
 </head>
 <body>
@@ -144,12 +151,14 @@
 		</div><!-- #top div -->
 
 		<div id="square">
+		<table>
 			<s:form action = "LoginAction">
 				<s:textfield name ="loginUserName" label = "NAME" />
 				<s:password name ="loginPassword" label = "PW" />
 				<s:submit id="login" value ="LOGIN"/>
 			<br/>
 			</s:form>
+			</table>
 		</div>
 
 		<p>！新規ユーザー登録は<a href='<s:url action ="UserCreateAction"/>'>こちら</a>！</p>

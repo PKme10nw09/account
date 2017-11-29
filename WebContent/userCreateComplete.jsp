@@ -71,17 +71,19 @@
 			padding-top:5px;
 			padding-bottom:5px;
 			margin:0 auto;
-			background-color:#FF3399;
+			background-color:#ff7f50;
 			color:#ffffff;
 			border-radius:5px;
-			border:2px solid #FF3399;
+			border:2px solid #ff7f50;
 			text-align:center;
+			letter-spacing:2px;
 		}
 
 		.login:hover{
 			text-decoration:none;
 			background-color:#ffffff;
-			color:#FF3399;
+			color:#ff7f50;
+			cursor:pointer;
 		}
 
 		#footer{
