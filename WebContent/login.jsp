@@ -33,6 +33,9 @@
 			text-align: center;
 			margin-top: 50px;
 			font-size:35px;
+			color:#7cfc00;
+			font-size:45px;
+			letter-spacing:5px;
 		}
 
 		#main{

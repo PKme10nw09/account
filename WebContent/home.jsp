@@ -35,6 +35,9 @@
 			background-position:center top;
 			background-repeat:no-repeat;
 			background-size:100%;
+			color:
+			font-size:
+			letter-spacing:
 		}
 
 		#main{

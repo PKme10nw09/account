@@ -34,7 +34,7 @@
 			background-position:center top;
 			background-repeat:no-repeat;
 			background-size:100%;
-			color:#ff8c00;
+			color:#ff7f50;
 			font-size:20px;
 		}
 
@@ -103,10 +103,10 @@
 			padding-right:20px;
 			padding-top:1px;
 			padding-bottom:1px;
-			background-color:#ff8c00;
+			background-color:#ff7f50;
 			color:#ffffff;
 			border-radius:5px;
-			border:2px solid #ff8c00;
+			border:2px solid #ff7f50;
 			text-align:center;
 			letter-spacing:2px;
 			display:inline-block;
@@ -116,7 +116,7 @@
 		.select_b:hover{
 			text-decoration:none;
 			background-color:#ffffff;
-			color:#ff8c00;
+			color:#ff7f50;
 			cursor:pointer;
 		}
 
