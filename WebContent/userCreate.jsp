@@ -31,7 +31,7 @@
 			background-size:100%;
 			color:#ff7f50;
 			font-size:20px;
-		}
+			}
 
 		h2{
 			text-align:center;
@@ -52,9 +52,17 @@
 			filter:brightness(110%);
 		}
 
+		#message{
+			text-align:center;
+			padding-top: 150px;
+			padding-right: 270px;
+			color: red;
+			font-size:19px;
+		}
+
 		table{
 			margin:0 auto;
-			margin-top:200px;
+			margin-top:10px;
 			padding-left:115px;
 			padding-right:115px;
 			border:inset 10px #ff7f50;
@@ -146,10 +154,12 @@
 	</div><!-- #header div -->
 
 	<div id="main">
+		<div id="message">
+			<s:if test="errorMassage != ''">
+				<s:property value="errorMassage" escape="false" />
+			</s:if>
+		</div>
 
-		<s:if test="errorMassage != ''">
-			<s:property value="errorMassage" escape="false" />
-		</s:if>
 			<form action="UserCreateConfirmAction">
 				<table>
 					<tr>
