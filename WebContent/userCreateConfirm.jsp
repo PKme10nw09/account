@@ -28,13 +28,11 @@
 		#header{
 			height:150px;
 			text-align:center;
-			branch 'master' of https://github.com/PKme10nw09/account;
 			padding:1px;
 			background-image:url(image/account-img7.jpg);
 			background-position:center top;
 			background-repeat:no-repeat;
 			background-size:100%;
-			color:#ff7f50;
 			font-size:20px;
 		}
 
@@ -43,10 +41,10 @@
 			margin-top: 35px;
 			letter-spacing: 5px;
 			font-size: 45px;
+			color:#043c78;
 		}
 
 		#main{
-			branch 'master' of https://github.com/PKme10nw09/account;
 			text-align:center;
 			padding:1px;
 			height:573px;
@@ -122,7 +120,6 @@
 
 		#footer{
 			height:30px;
-			branch 'master' of https://github.com/PKme10nw09/account;
 			text-align:center;
 			padding:1px;
 			background-color:#e0e0e0;
@@ -133,7 +130,7 @@
 
 <body>
 	<div id="header">
-		<h2>CONFIRM</h2>
+		<h2>USER CONFIRM</h2>
 	</div><!-- #header div -->
 
 	<div id="main">

@@ -22,14 +22,12 @@
 
 		#header{
 			height:150px;
-			branch 'master' of https://github.com/PKme10nw09/account;
 			text-align:center;
 			padding:1px;
 			background-image:url(image/account-img7.jpg);
 			background-position:center top;
 			background-repeat:no-repeat;
 			background-size:100%;
-			color:#ff7f50;
 			font-size:20px;
 			}
 
@@ -38,12 +36,12 @@
 			margin-top: 35px;
 			letter-spacing: 5px;
 			font-size: 45px;
+			color:#043c78;
 		}
 
 		#main{
 			padding:1px;
 			height:573px;
-			branch 'master' of https://github.com/PKme10nw09/account;
 			margin:0 auto;
 			background-image:url(image/account-img9.jpg);
 			background-repeat:no-repeat;
@@ -62,7 +60,7 @@
 
 		table{
 			margin:0 auto;
-			margin-top:10px;
+			margin-top:25px;
 			padding-left:115px;
 			padding-right:115px;
 			border:inset 10px #ff7f50;
@@ -139,7 +137,6 @@
 
 		#footer{
 			height:30px;
-			branch 'master' of https://github.com/PKme10nw09/account;
 			text-align:center;
 			padding:1px;
 			background-color:#e0e0e0;

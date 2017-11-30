@@ -20,7 +20,6 @@
 			height:750px;
 			padding:0;
 			background-color:#e6e6fa;
-			branch 'master' of https://github.com/PKme10nw09/account;
 		}
 
 		table{
@@ -30,17 +29,14 @@
 
 		#header{
 			height:120px;
-			branch 'master' of https://github.com/PKme10nw09/account;
 			text-align:center;
 			background-color:#192f60;
-			branch 'master' of https://github.com/PKme10nw09/account;
 			padding: 10px;
 		}
 
 		#main{
 			padding:10px;
 			height:499px;
-			branch 'master' of https://github.com/PKme10nw09/account;
 			text-align:center;
 		}
 
